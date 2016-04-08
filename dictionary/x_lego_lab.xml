@@ -2,6 +2,7 @@
 <database>
     <element label="Lab" max_length="40" name="x_lego_lab" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Script" max_length="4000" name="script" type="script"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
