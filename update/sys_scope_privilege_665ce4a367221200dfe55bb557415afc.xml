@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-08 20:29:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>665ce4a367221200dfe55bb557415afc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>GlideScopedEvaluator</sys_name>

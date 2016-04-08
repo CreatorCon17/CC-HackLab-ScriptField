@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d43fe42767221200dfe55bb557415a4d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update table="x_lego_lab"&gt;
+    &lt;x_lego_lab action="INSERT_OR_UPDATE"&gt;
+        &lt;number&gt;LAB0001003&lt;/number&gt;
+        &lt;script&gt;&lt;![CDATA[var percentTasks = new MyUtils().taskPercentage(taskCount);
+answer = current.user.getDisplayValue() + ' has ' + percentTasks + '% of all tasks.';]]&gt;&lt;/script&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2016-04-08 20:42:32&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d43fe42767221200dfe55bb557415a4d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2016-04-08 20:49:46&lt;/sys_updated_on&gt;
+        &lt;user display_value="Fred Luddy"&gt;5137153cc611227c000bbd1bd8cd2005&lt;/user&gt;
+    &lt;/x_lego_lab&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:50:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>55f0b06b67221200dfe55bb557415a4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAB0001003</sys_name>
+        <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
+        <sys_update_name>sys_metadata_link_55f0b06b67221200dfe55bb557415a4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:50:00</sys_updated_on>
+        <tablename>x_lego_lab</tablename>
+    </sys_metadata_link>
+</record_update>
