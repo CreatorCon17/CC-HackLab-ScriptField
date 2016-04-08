@@ -28,6 +28,11 @@ var userTasks = new MyUtils().taskCounter(current.user);
 evaluator.putVariable('taskCount', userTasks);
 
 evaluator.evaluateScript(current, 'script');
+evaluator.getVariable('answer');
+if (typeof answer == 'undefined')
+    gs.addErrorMessage('answer variable not defined');
+else
+    gs.addInfoMessage('Returned answer=' + answer);
 action.setRedirectURL(current);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -40,7 +45,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e2ce4a367221200dfe55bb557415a49</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Run Script</sys_name>
         <sys_overrides/>
         <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
@@ -49,7 +54,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
         <sys_update_name>sys_ui_action_1e2ce4a367221200dfe55bb557415a49</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-08 20:31:15</sys_updated_on>
+        <sys_updated_on>2016-04-08 20:33:18</sys_updated_on>
         <table>x_lego_lab</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
