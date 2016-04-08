@@ -23,7 +23,7 @@ action.setRedirectURL(current);]]&gt;&lt;/script&gt;
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-08 20:03:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fe66eca367221200dfe55bb557415a45</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Lab 1 - UI Action</sys_name>

@@ -3,18 +3,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_lego_lab" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_lego_lab" element="NULL" name="x_lego_lab" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">21b4a8a367221200dfe55bb557415a3a</list_id>
+            <element>number</element>
+            <list_id display_value="x_lego_lab" element="NULL" name="x_lego_lab" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">955be06367221200dfe55bb557415a70</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-08 19:56:29</sys_created_on>
-            <sys_id>e1b4a8a367221200dfe55bb557415a3a</sys_id>
+            <sys_created_on>2016-04-08 20:25:25</sys_created_on>
+            <sys_id>595be06367221200dfe55bb557415a70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-08 19:56:29</sys_updated_on>
+            <sys_updated_on>2016-04-08 20:25:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="x_lego_lab" element="NULL" name="x_lego_lab" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">955be06367221200dfe55bb557415a70</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-04-08 20:25:25</sys_created_on>
+            <sys_id>995be06367221200dfe55bb557415a70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-08 20:25:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_lego_lab" element="NULL" name="x_lego_lab" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">955be06367221200dfe55bb557415a70</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-04-08 20:25:25</sys_created_on>
+            <sys_id>d95be06367221200dfe55bb557415a70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-08 20:25:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -28,11 +58,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-08 19:56:29</sys_created_on>
+            <sys_created_on>2016-04-08 20:25:25</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>21b4a8a367221200dfe55bb557415a3a</sys_id>
+            <sys_id>955be06367221200dfe55bb557415a70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_lego_lab</sys_name>
             <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
@@ -41,7 +71,7 @@
             <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
             <sys_update_name>sys_ui_list_x_lego_lab_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-08 19:56:29</sys_updated_on>
+            <sys_updated_on>2016-04-08 20:25:25</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
