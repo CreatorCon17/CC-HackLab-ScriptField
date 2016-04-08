@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>831fe42767221200dfe55bb557415a18</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update table="x_lego_lab"&gt;
+    &lt;x_lego_lab action="INSERT_OR_UPDATE"&gt;
+        &lt;number&gt;LAB0001002&lt;/number&gt;
+        &lt;script&gt;&lt;![CDATA[gs.addInfoMessage(current.user.getDisplayValue() + " has " + taskCount + " tasks");]]&gt;&lt;/script&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2016-04-08 20:42:10&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;831fe42767221200dfe55bb557415a18&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2016-04-08 20:47:49&lt;/sys_updated_on&gt;
+        &lt;user display_value="Beth Anglin"&gt;46d44a23a9fe19810012d100cca80666&lt;/user&gt;
+    &lt;/x_lego_lab&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:48:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>558078e767221200dfe55bb557415ad7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAB0001002</sys_name>
+        <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
+        <sys_update_name>sys_metadata_link_558078e767221200dfe55bb557415ad7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:48:05</sys_updated_on>
+        <tablename>x_lego_lab</tablename>
+    </sys_metadata_link>
+</record_update>
