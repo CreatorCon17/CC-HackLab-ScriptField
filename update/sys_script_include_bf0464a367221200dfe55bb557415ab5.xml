@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_lego.MyUtils</api_name>
+        <client_callable>false</client_callable>
+        <description>Sample script include for this exercise</description>
+        <name>MyUtils</name>
+        <script><![CDATA[var MyUtils = Class.create();
+MyUtils.prototype = {
+	initialize: function() {
+	},
+	
+	/*
+	 * taskCounter - count the number of tasks assigned to the user
+	 *
+	 * @param userID - sys_id of a user
+	 * @return - integer of tasks assigned to specified user
+	 *
+	 */
+	taskCounter : function (userID) {
+		if (!userID)
+			return 0;
+		
+		var ga = new GlideAggregate('task');
+		var answer = 0;
+		ga.addAggregate('COUNT');
+		ga.addQuery('assigned_to', userID);
+		ga.query();
+		
+		if (ga.next()) {
+			answer = ga.getAggregate('COUNT');
+		}
+		return answer;
+	},
+	
+	/*
+	 * taskPercentage - determine what percentage of tasks are
+	 *
+	 * @param userTaskCount - integer of a number of tasks
+	 *                        (assumed assigned to this user)
+	 * @return percentage (userTaskCount / totalTasks) * 100
+	 *
+	 */
+	taskPercentage : function(userTaskCount) {
+		if (userTaskCount == 0)
+			return 0;
+		
+		var ga = new GlideAggregate('task');
+		var allTasks = 0;
+		ga.addAggregate('COUNT');
+		ga.query();
+		
+		if (ga.next()) {
+			allTasks = ga.getAggregate('COUNT');
+		}
+		
+		return (userTaskCount / allTasks) * 100;
+			
+	},
+	
+	type: 'MyUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 19:54:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bf0464a367221200dfe55bb557415ab5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyUtils</sys_name>
+        <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
+        <sys_update_name>sys_script_include_bf0464a367221200dfe55bb557415ab5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 19:54:02</sys_updated_on>
+    </sys_script_include>
+</record_update>
