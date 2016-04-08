@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Lego">7de364a367221200dfe55bb557415a54</application>
+        <filter/>
+        <name>Lab</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_lego.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 19:52:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71e364a367221200dfe55bb557415a55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab</sys_name>
+        <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
+        <sys_update_name>sys_ui_module_71e364a367221200dfe55bb557415a55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 19:52:58</sys_updated_on>
+        <table>x_lego_lab</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
